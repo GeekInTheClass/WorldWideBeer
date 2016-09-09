@@ -8,4 +8,4 @@
 
 <https://www.kloudbeer.com/>
 
-![kloud](https://www.kloudbeer.com/images/aboutKloud/slide01_model.png)
+![kloud](http://stonebc.com/wp-content/uploads/2014/08/8.png)
