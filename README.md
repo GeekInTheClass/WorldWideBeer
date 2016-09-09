@@ -16,4 +16,5 @@
 
 <http://www.kirin.co.jp/>
 
-![kirin](http://cfile226.uf.daum.net/image/23637E445200A7B609C1A8)
+<img src="http://cfile226.uf.daum.net/image/23637E445200A7B609C1A8"width="200" height="200">
+</img>
