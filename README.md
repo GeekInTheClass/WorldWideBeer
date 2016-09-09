@@ -4,7 +4,7 @@
 
 ##ASIA
 ### 1.한국
--Kloud 
+-클라우드
 
 <https://www.kloudbeer.com/>
 
@@ -12,9 +12,9 @@
 </img>
 
 ### 2. 일본
--KIRIN
+-기린 이치방
 
 <http://www.kirin.co.jp/>
 
-<img src="http://cfile226.uf.daum.net/image/23637E445200A7B609C1A8"width="200" height="200">
+<img src="http://www.hitejinro.com/Imag/Bran/bran_beer_kiri/image.jpg"width="200" height="200">
 </img>
