@@ -33,6 +33,5 @@
 
 <www.tigerbeer.com/>
 
-<img src="https://content.skyscnr.com/c27a21799f1a04d35f1e8f9acd5266db/beer.jpg?resize=800px:99999px&quality=75"width="250" height="200">
-</img>
+<img src="https://content.skyscnr.com/c27a21799f1a04d35f1e8f9acd5266db/beer.jpg?resize=800px:99999px&quality=75"width="250" height="200"></img>
 
