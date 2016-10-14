@@ -4,28 +4,8 @@ import UIKit
 
 enum BeerType:String
 {
-   case lager, draft, pilsener, munchener, dortmund, bock, porter, ale, stout, lambic, wheat
+    case lager, draft, pilsener, munchener, dortmund, bock, porter, ale, stout, lambic, wheat
 }
-
-/*enum Continent:String
-{
-    case Asia, Europe, South_America, North_America, Africa, Oceania
-}
-*/
-/*class Nation
-{
-    let country:String
-    let continent:Continent
-    let beer:Beer
-    
-    init(country:String, continent:Continent, beer:Beer)
-    {
-        self.country = country
-        self.continent = continent
-        self.beer = beer
-    }
-}
- */
 
 class Beer{
     let name:String
@@ -71,6 +51,7 @@ var Lager:[Beer] = []
 var USBeerString:String = ""
 var alcholAmount:[String : Double] = [:]
 
+/*
 for beer in beers
 {
     if beer.alchol > 5.0
@@ -78,7 +59,15 @@ for beer in beers
         highAlcholBeer += [beer]
     }
 }
+ */
 
+beers.map( { beer in
+    if beer.alchol > 5.0 {
+        highAlcholBeer += [beer]
+    }
+})
+
+/*
 for beer in beers
 {
     if beer.country == "US"
@@ -86,26 +75,51 @@ for beer in beers
         USBeer += [beer]
     }
 }
+*/
 
-for beer in beers
+beers.map( { beer in
+    if beer.country == "US" {
+        USBeer += [beer]
+    }
+})
+
+
+/*for beer in beers
 {
     if(beer.country == "US")
     {
         USBeerString += beer.name
     }
-}
+}*/
 
+beers.map({beer in
+    if beer.country == "US"{
+        USBeerString += beer.name
+    }
+})
+
+/*
 for beer in beers
 {
     if beer.type == BeerType.lager
     {
         Lager += [beer]
     }
-}
+}*/
 
+beers.filter { (Beer) in
+    Beer.type == BeerType.lager
+}
+/*
 for beer in beers
 {
     var aa = 500 * beer.alchol / 100
     
     alcholAmount[beer.name] = aa
 }
+ */
+
+
+beers.map({
+    ($0.alchol * 500)/100
+})
